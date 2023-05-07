@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>饿了么 用户登陆</title>
+  <link rel="stylesheet" href="../dist/output.css">
+</head>
+<body>
+    <div class="w-full h-full">
+
+        <!--header部分-->
+        <header class="w-full h-24 bg-[#0097FFFF] text-white text-4xl fixed left-0 top-0 z-50 flex justify-center items-center">
+             <p>用户登录</p>
+        </header>
+
+        <!--表单部分-->
+        <ul class="w-full mt-[12vw]">
+            <li class="box-border pt-10 px-8 pb-0 flex items-center">
+                <div class="flex-shrink-0 flex flex-grow-0 flex-basis-18vw text-2xl font-bold text-[#666666FF]">
+            手机号码：
+                </div>
+                <div class="flex-1">
+                    <input class="w-full h-8 ml-4 text-2xl border-none outline-none" type="text" placeholder="手机号码">
+                </div>
+            </li>
+            <li class="box-border pt-10 px-8 pb-0 flex items-center">
+                <div class="flex-shrink-0 flex flex-grow-0 flex-basis-18vw text-2xl font-bold text-[#666666FF]">
+                    密码：
+                </div>
+                <div class="flex-1">
+                    <input class="w-full h-8 ml-4 text-2xl border-none outline-none" type="text" placeholder="密码">
+                </div>
+            </li>
+            <li class="w-full flex-col box-border justify-center items-center">
+                <div class="w-full flex-col h-30 flex box-border pt-[4vw] px-[3vw] pb-0 justify-center items-center">
+                    <button class="w-full h-20 text-3xl font-bold text-white bg-[#38CA73FF] rounded-[4px] border-none outline-none">登陆</button>
+                </div>
+                <div class="w-full flex-col h-30 flex box-border pt-[4vw] px-[3vw] pb-0 justify-center items-center">
+                    <button class="w-full h-20 text-3xl font-bold text-[#666666FF] bg-[#DDDDDDFF] rounded-[4px] border-none outline-none" onclick="location.href='register.html'">去注册</button>
+                </div>
+            </li>
+        </ul>
+
+        <!--底部菜单部分-->
+        <ul class="w-full h-28 border-solid border-t-[1px] border-[#DDDDDDFF] bg-[#FFFFFFFF] fixed left-0 bottom-0 flex justify-around items-center">
+            <li class="flex flex-col justify-center items-center text-[#999] select-none cursor-pointer">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 10v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1v-9M6 10l6-6l6 6M6 10l-2 2m14-2l2 2m-10 1h4v4h-4v-4z"/></svg>
+                <p class="text-[2.8vw]">首页</p>
+            </li>
+            <li class="flex flex-col justify-center items-center text-[#999] select-none cursor-pointer">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 50 50"><path fill="currentColor" d="M25 49C11.766 49 1 38.233 1 25C1 11.766 11.766 1 25 1c13.233 0 24 10.766 24 24c0 13.233-10.767 24-24 24zm0-44C13.972 5 5 13.972 5 25s8.972 20 20 20s20-8.972 20-20S36.028 5 25 5zm.045 3.25S18 20.321 18 24v2c0 3.678 7.066 16 7.066 16S32 29.934 32 26.256v-2.262c0-3.679-6.955-15.744-6.955-15.744zM25 29a4 4 0 1 1 0-8a4 4 0 0 1 0 8z"/></svg>
+                <p class="text-[2.8vw]">发现</p>
+            </li>
+            <li class="flex flex-col justify-center items-center text-[#999] select-none cursor-pointer">
+                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><g id="feDocument0" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1"><g id="feDocument1" fill="currentColor" fill-rule="nonzero"><path id="feDocument2" d="M15 4H6v16h12V7h-3V4ZM6 2h10l4 4v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2Zm2 9h8v2H8v-2Zm0 4h8v2H8v-2Z"/></g></g></svg>
+                <p class="text-[2.8vw]">订单</p>
+            </li>
+            <li class="flex flex-col justify-center items-center text-[#999] select-none cursor-pointer">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18 19v-1.25c0-2.071-1.919-3.75-4.286-3.75h-3.428C7.919 14 6 15.679 6 17.75V19m9-11a3 3 0 1 1-6 0a3 3 0 0 1 6 0z"/></svg>
+                <p class="text-[2.8vw]">我的</p>
+        </ul>
+    </div>
+</body>
+</html>
